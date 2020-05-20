@@ -1,0 +1,168 @@
+/* Univeral Styles */
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #EF5260;
+}
+
+/* Header */
+
+.nav {
+    background-color: #1A173A;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    height: 100px;
+    /* pending */
+    z-index: 1;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.nav img {
+    height: 95px;
+    margin-left: 20px;
+}
+
+.nav a {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.nav-buttons {
+    margin-right: 40px;
+}
+
+/* Main */
+
+/* Title */
+
+.image-container {
+    background-image: url("./images/Background.jpg");
+    background-size: cover;
+    height: 650px;
+    margin-top: 100px;
+    opacity: 0.9;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px;
+}
+
+.content h1 {
+    font-size: 5em;
+    margin: 0;
+}
+
+.content h3 {
+    font-size: 1.2em;
+    margin: 0;
+    padding-top: 10px;
+}
+
+/* Blurb */
+
+#blurb {
+    display: flex;
+    justify-content: center;
+}
+
+#blurb p {
+    max-width: 430px;
+    margin: 80px;
+    font-style: italic;
+}
+
+/* Drinks */
+
+.drinks {
+    text-align: center;
+    background-color: #1A173A;
+    color: whitesmoke;
+}
+
+.drinks h2 {
+    margin: 0;
+    padding: 50px 0 30px 0;
+    font-size: 3em;
+}
+
+.drinks-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.flex-box.drinks {
+    width: 450px;
+    padding-bottom: 20px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+}
+
+.flex-box.drinks img {
+    width: 300px;
+}
+
+.flex-box.drinks p {
+    max-width: 250px;
+}
+
+/* Bottles */
+
+.bottles {
+    text-align: center;
+}
+.bottles h2 {
+    margin: 0;
+    padding: 50px 0 30px 0;
+}
+
+.bottles-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bottles img {
+    width: 200px;
+}
+
+.flex-box.bottles {
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #1A173A;
+    color: whitesmoke;
+}
